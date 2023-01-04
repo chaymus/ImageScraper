@@ -9,7 +9,7 @@ import java.nio.file.Paths
 fun main(args: Array<String>) {
     val client = HttpClient.newBuilder().build();
 
-    for (i in 1..1) {
+    for (i in 1..1248) {
         val request = HttpRequest.newBuilder()
             .uri(URI.create("https://asofterworld.com/index.php?id=$i")).build();
 
